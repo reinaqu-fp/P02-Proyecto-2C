@@ -1,24 +1,24 @@
-# Proyecto del Segundo Cuatrimestre Fundamentos de Programación (Curso  \<XX\>/\<YY\>)
+# Proyecto del Segundo Cuatrimestre Fundamentos de ProgramaciÃ³n (Curso  \<XX\>/\<YY\>)
 Autor/a: \<nombre del autor\>   uvus:\<uvus del autor\>
 
-Aquí debes añadir la descripción del dataset y un enunciado del dominio del proyecto.
+AquÃ­ debes aÃ±adir la descripciÃ³n del dataset y un enunciado del dominio del proyecto.
 
 
 ## Estructura de las carpetas del proyecto
 
 * **/src**: Contiene los diferentes archivos que forman parte del proyecto. Debe estar estructurado en los siguentes paquetes
-  * **fp.\<dominio\>**: Describe aquí el módulo principal.
-  * **fp.\<dominio\.test>**: Describe aquí el módulo de pruebas.
-  * **fp.utiles**:  Añade a este módulo las clases de utilidad. 
+  * **fp.\<dominio\>**: Describe aquÃ­ el mÃ³dulo principal.
+  * **fp.\<dominio\>.test**: Describe aquÃ­ el mÃ³dulo de pruebas.
+  * **fp.utiles**:  AÃ±ade a este mÃ³dulo las clases de utilidad. 
 * **/data**: Contiene el dataset o datasets del proyecto
-    * **\<dataset1.csv\>**: Añade una descripción genérica del dataset.
-    * **\<dataset2.csv\>**: Añade una descripción del resto de datasets que puedas tener.
+    * **\<dataset1.csv\>**: AÃ±ade una descripciÃ³n genÃ©rica del dataset.
+    * **\<dataset2.csv\>**: AÃ±ade una descripciÃ³n del resto de datasets que puedas tener.
     
 ## Estructura del *dataset*
 
-Aquí debes describir la estructura del dataset explicando qué representan los datos que contiene y la descripción de cada una de las columnas.
+AquÃ­ debes describir la estructura del dataset explicando quÃ© representan los datos que contiene y la descripciÃ³n de cada una de las columnas.
 
-El dataset está compuesto por \<N\> columnas, con la siguiente descripción:
+El dataset estÃ¡ compuesto por \<N\> columnas, con la siguiente descripciÃ³n:
 
 * **\<columna 1>**: de tipo \<tipo\>, representa....
 * **\<columna 2>**: de tipo \<tipo\>, representa....
@@ -26,51 +26,74 @@ El dataset está compuesto por \<N\> columnas, con la siguiente descripción:
 
 ## Tipos implementados
 
-Describe aquí los tipos que usas en tu proyecto.
+Describe aquÃ­ los tipos que usas en tu proyecto.
 
 ### Tipo Base
-
-_Propiedades_:
-•	_propiedad1_, de tipo <Tipo1>, consultable. 
-
-_Constructores_: 
-•	C1: recibe un parámetro por cada una de las propiedades básicas del tipo, excepto las canciones y las imágenes, que estarán vacías.
-Representación como cadena: Una cadena con todas las propiedades, excepto las canciones y las imágenes, de las que solo se mostrará el número de elementos de las listas.
-
-_Restricciones_:
-•	R1: Descripción de la restricción 1.
-
-•	R2: Descripción de la restricción 2.
-
-_Criterio de igualdad_: Dos becas son iguales si lo son sus códigos.
-
-_Criterio de ordenación_: Las becas se ordenan por su código.
-
-_Otras operaciones_:
-•	_método 1_: Descripción del método 1.
-
-### Factoría
-•	_método 1_: Descripción del método 1.
-•	_método 2_: Descripción del método 1.
-
-### Tipo Contenedor
+DescripciÃ³n breve del tipo base.
 
 **Propiedades**:
 
-•	_propiedad1_, de tipo <Tipo1>, consultable. 
+- _propiedad1_, de tipo \<Tipo1\>, consultable. 
+- _propiedad2_, de tipo \<Tipo2\>, consultable y modificable. 
+- ...
+- 
+**Constructores**: 
 
-_Constructores_: 
-•	C1: recibe un parámetro por cada una de las propiedades básicas del tipo, excepto las canciones y las imágenes, que estarán vacías.
-Representación como cadena: Una cadena con todas las propiedades, excepto las canciones y las imágenes, de las que solo se mostrará el número de elementos de las listas.
+- C1: DescripciÃ³n del constructor 1.
+- C2: DescripciÃ³n del constructor 2.
+- ...
 
-_Restricciones_:
-•	R1: Descripción de la restricción 1.
+**Restricciones**:
+ 
+- R1: DescripciÃ³n de la restricciÃ³n 1.
+- R2: DescripciÃ³n de la restricciÃ³n 2.
+- ...
+- 
+**Criterio de igualdad**: Describir el criterio de igualdad
 
-•	R2: Descripción de la restricción 2.
+**Criterio de ordenaciÃ³n**: Describir el criterio de ordenaciÃ³n (si lo hay).
 
-_Criterio de igualdad_: Dos becas son iguales si lo son sus códigos.
+**Otras operaciones**:
+ 
+-	_mÃ©todo 1_: DescripciÃ³n del mÃ©todo 1.
+- ...
 
-_Criterio de ordenación_: Las becas se ordenan por su código.
+#### Tipos auxiliares
+DescripciÃ³n de los tipos auxiliares que sean necesarios aÃ±adir al proyecto.
 
-_Otras operaciones_:
-•	_método 1_: Descripción del método 1.
+### FactorÃ­a
+DescripciÃ³n breve de la factorÃ­a.
+
+_ _mÃ©todo 1_: DescripciÃ³n del mÃ©todo 1.
+_	_mÃ©todo 2_: DescripciÃ³n del mÃ©todo 2.
+
+### Tipo Contenedor
+
+DescripciÃ³n breve del tipo contenedor.
+
+**Propiedades**:
+
+- _propiedad1_, de tipo \<Tipo1\>, consultable. 
+- _propiedad2_, de tipo \<Tipo2\>, consultable y modificable. 
+- ...
+- 
+**Constructores**: 
+
+- C1: DescripciÃ³n del constructor 1.
+- C2: DescripciÃ³n del constructor 2.
+- ...
+
+**Restricciones**:
+ 
+- R1: DescripciÃ³n de la restricciÃ³n 1.
+- R2: DescripciÃ³n de la restricciÃ³n 2.
+- ...
+- 
+**Criterio de igualdad**: Describir el criterio de igualdad
+
+**Criterio de ordenaciÃ³n**: Describir el criterio de ordenaciÃ³n (si lo hay).
+
+**Otras operaciones**:
+ 
+-	_mÃ©todo 1_: DescripciÃ³n del mÃ©todo 1.
+- ...
