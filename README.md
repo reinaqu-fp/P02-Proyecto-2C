@@ -7,9 +7,10 @@ Aquí debes añadir la descripción del dataset y un enunciado del dominio del p
 ## Estructura de las carpetas del proyecto
 
 * **/src**: Contiene los diferentes archivos que forman parte del proyecto. Debe estar estructurado en los siguentes paquetes
-  * **fp.\<dominio\>**: Describe aquí el módulo principal.
-  * **fp.\<dominio\>.test**: Describe aquí el módulo de pruebas.
-  * **fp.utiles**:  Añade a este módulo las clases de utilidad. 
+  * **fp.\<dominio\>**: Paquete que contiene los tipos del proyecto.
+  * **fp.\<dominio\>.test**: Paquete que contiene las clases de test del proyecto.
+  * **fp.common**: Paquete que contiene los tipos auxiliares del proyecto
+  * **fp.utiles**:  Paquete que contiene las clases de utilidad. 
 * **/data**: Contiene el dataset o datasets del proyecto
     * **\<dataset1.csv\>**: Añade una descripción genérica del dataset.
     * **\<dataset2.csv\>**: Añade una descripción del resto de datasets que puedas tener.
@@ -66,6 +67,7 @@ Descripción breve de la factoría.
 
 _ _método 1_: Descripción del método 1.
 _	_método 2_: Descripción del método 2.
+_ ...
 
 ### Tipo Contenedor
 
