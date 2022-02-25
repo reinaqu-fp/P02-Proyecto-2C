@@ -65,9 +65,8 @@ Descripción de los tipos auxiliares que sean necesarios añadir al proyecto.
 ### Factoría
 Descripción breve de la factoría.
 
-_ _método 1_: Descripción del método 1.
-_	_método 2_: Descripción del método 2.
-_ ...
+- _método 1_: Descripción del método 1.
+-	_método 2_: Descripción del método 2.
 
 ### Tipo Contenedor
 
