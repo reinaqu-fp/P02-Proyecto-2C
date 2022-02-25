@@ -17,7 +17,7 @@ Aquí debes añadir la descripción del dataset y un enunciado del dominio del p
     
 ## Estructura del *dataset*
 
-Aquí debes describir la estructura del dataset explicando qué representan los datos que contiene y la descripción de cada una de las columnas.
+Aquí debes describir la estructura del dataset explicando qué representan los datos que contiene y la descripción de cada una de las columnas. Incluye también la URL del dataset original.
 
 El dataset está compuesto por \<N\> columnas, con la siguiente descripción:
 
